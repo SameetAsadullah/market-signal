@@ -39,7 +39,7 @@ This project implements a deep learning pipeline for **multi-horizon prediction 
 | LSTM          | 0.026     | Adam      | 0.01           | 32          | 2      | 50            |
 | RNN           | 0.028     | Adam      | 0.01           | 64          | 2      | 50            |
 
-> ✅ **GRU-based models** demonstrated the strongest performance in multi-horizon OHLCV forecasting.
+> ✅ **GRU-based models** achieved the strongest performance in multi-horizon OHLCV forecasting.
 
 ---
 
