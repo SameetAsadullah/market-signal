@@ -2,6 +2,8 @@
 
 This project implements a deep learning pipeline for **multi-horizon prediction of financial time series** using temporal neural architectures. The framework supports multivariate inputs and outputs, enabling robust forecasting of market signals like Open, High, Low, Close, and Volume.
 
+[![Notebook checks](https://github.com/SameetAsadullah/temporal-financial-forecasting/actions/workflows/quality.yml/badge.svg)](https://github.com/SameetAsadullah/temporal-financial-forecasting/actions/workflows/quality.yml)
+
 ---
 
 ## 🚀 Key Features
@@ -49,3 +51,15 @@ This project implements a deep learning pipeline for **multi-horizon prediction 
 - 🔹 Best predicted vs actual plots (OHLCV)
 - 🔹 Loss curves per epoch
 - 🔹 Future market trend simulations
+
+## Repository layout
+
+- `notebooks/financial-forecasting.ipynb` — preprocessing, model search, and evaluation
+- `data/` — chronological training and test datasets
+
+## Run the analysis
+
+```bash
+cd notebooks
+jupyter lab financial-forecasting.ipynb
+```
