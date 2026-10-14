@@ -33,6 +33,12 @@ This project implements a deep learning pipeline for **multi-horizon prediction 
 
 ---
 
+## Forecasting workflow
+
+The notebook loads separate chronological training and test datasets, fits scaling on the training data, and turns each series into windows of 15 input days and 3 target days. It compares RNN, GRU, and LSTM configurations, then reports RMSE and predicted-versus-actual plots for the held-out data.
+
+---
+
 ## 📊 Benchmark Summary
 
 | Model         | Best RMSE | Optimizer | Learning Rate | Batch Size | Layers | Hidden Units |
