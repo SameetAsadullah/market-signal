@@ -1,8 +1,8 @@
-# 📈 Temporal Financial Forecasting with RNNs, GRUs, and LSTMs
+# Market Signal: Financial Time Series Forecasting
 
 This project implements a deep learning pipeline for **multi-horizon prediction of financial time series** using temporal neural architectures. The framework supports multivariate inputs and outputs, enabling robust forecasting of market signals like Open, High, Low, Close, and Volume.
 
-[![Notebook checks](https://github.com/SameetAsadullah/temporal-financial-forecasting/actions/workflows/quality.yml/badge.svg)](https://github.com/SameetAsadullah/temporal-financial-forecasting/actions/workflows/quality.yml)
+[![Notebook checks](https://github.com/SameetAsadullah/market-signal/actions/workflows/quality.yml/badge.svg)](https://github.com/SameetAsadullah/market-signal/actions/workflows/quality.yml)
 
 ---
 
